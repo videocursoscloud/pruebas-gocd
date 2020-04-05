@@ -1,6 +1,6 @@
 usage:
 	@echo "Run Make with one of the following options:"
-	@echo "test_gocd, clean, prereq, test, deploy or run"
+	@echo "test_gocd, clean, prereq, test, deploy or run build_docker"
 build_docker:
 	docker build -t flaskr .
 
