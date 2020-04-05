@@ -8,6 +8,7 @@ test_gocd:	clean prereq test
 clean:
 	rm -rf venv
 	rm -rf tutorial/instance/flaskr.sqlite
+	docker image rm flaskr
 
 prereq:
 	python3 -m venv venv
