@@ -6,7 +6,7 @@ clean:
 prereq:
 	python3 -m venv venv
 	bash -c "cd tutorial; ../venv/bin/pip install -e ."
-test1:
+test:
 	echo 'ejecutando tests'
 
 deploy:
